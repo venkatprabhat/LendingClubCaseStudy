@@ -4,8 +4,6 @@
 ---
 ### Project Overview
 
-![Lending Club]
-
 Lending money involves significant risks, and it’s crucial for companies to make informed decisions to prevent financial losses. This case study aims to identify loan applicants who are more likely to default, which can result in substantial losses for lending institutions. By conducting a detailed analysis, the study seeks to highlight the factors that contribute to the likelihood of default.
 
 ## Table of Contents
@@ -16,6 +14,14 @@ Lending money involves significant risks, and it’s crucial for companies to ma
 - [Contact](#contact)
 
 ## Overview
+
+Lending Club, the largest online loan marketplace, facilitates personal loans, business loans, and medical procedure financing. This project's primary business objective is to enhance the company's decision-making process in loan approvals by identifying and mitigating credit risks associated with loan applicants. 
+
+The company can reduce potential financial losses and optimise its loan portfolio by identifying these "risky" applicants who are likely to default. In other words, the company wants to understand the driving factors (or driver variables) behind loan default.
+
+Ultimately, this will strengthen the company's position as the leading online loan marketplace by improving its ability to manage risk and maintain profitability.
+
+Specifically, the goal is to leverage Exploratory Data Analysis (EDA) to uncover patterns and key factors that predict loan defaults.
 
 Loan defaults have a detrimental impact on lenders, causing cash flow issues and financial setbacks. Early identification of high-risk applicants is crucial to reducing credit losses. The dataset used for this analysis is `loan.csv`, which includes various attributes related to borrowers and their loan details.
 
@@ -30,6 +36,8 @@ Loan defaults have a detrimental impact on lenders, causing cash flow issues and
 - Loans exceeding 15,000 in grades E, F, or G are likely to default.
 - Installments between 800 and 12,000 with an average interest rate above 15% are also risky.
 - Loans with an average interest rate of 17% and installments over 12,000 indicate a higher risk of default.
+- Loss in Verified loan applicants are just marginal above the Non Verified ones. Though its not a key factor, but needs to check the loan  screening sources.
+
 
 ## Technology Stack
 
@@ -48,10 +56,10 @@ This project was developed as a part of the Executive PG Programme in Machine Le
 Reach out to the creators:
 
 - **LinkedIn**:
-  - [Veda Charitha Bandikallu](https://www.linkedin.com/in/sureshkrishh/)
+  - [Veda Charitha Bandikallu](https://www.linkedin.com/in/veda-c-7a5662107/)
   - [Viswanadha Venkat Prabhat](https://www.linkedin.com/in/venkat-prabhat-a74148184/)
 - **GitHub**:
-  - [Veda Charitha Bandikallu]()
+  - [Veda Charitha Bandikallu](https://github.com/VedaCharithaB)
   - [Viswnadha Venkat Prabhat](https://github.com/venkatprabhat)
 
 ---
